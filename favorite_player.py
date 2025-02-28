@@ -11,15 +11,15 @@ st.title("Atletico Madrid 選手名鑑")
 "あなたの好きな選手にチェックを入れてね！"
 "カッコイイ画像が表示されるよ！"
 if st.checkbox("ヤン・オブラク"):
-    img=Image.open("vini.jfif")
+    img=Image.open("Vini.jfif")
     st.image(img,caption="ヤン・オブラク",use_container_width=True,)
 
 if st.checkbox("コケ・レスレクシオン"):
-    img=Image.open("vini.jfif")
+    img=Image.open("Vini.jfif")
     st.image(img,caption="コケ・レスレクシオン",use_container_width=True,)
 
 if st.checkbox("アントワーヌ・グリーズマン"):
-    img=Image.open("vini.jfif")
+    img=Image.open("Vini.jfif")
     st.image(img,caption="アントワーヌ・グリーズマン",use_container_width=True,)
     for i in range(100):
         latest_iteration.text(f"Iteration {i+1}")
